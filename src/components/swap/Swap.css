@@ -1,0 +1,33 @@
+.swap-number-container .numbers {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.swap-number-container .title {
+    height: 8rem;
+    margin: 3rem;
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.swap-number-container .logic-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swap-number-container .title .swap-btn {
+    padding: 0.5rem 2rem;
+    background-color: #4a0000;
+    color: #fff;
+    font-weight: 600;
+    font-size: 3rem;
+    border-radius: 1.2rem;
+}
+
+.swap-number-container .title .swap-btn:hover {
+    cursor: pointer;
+    background-color: #2d0a0a;
+}

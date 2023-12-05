@@ -1,0 +1,19 @@
+.number-container {
+  padding: 2rem;
+  background-color: #34004a;
+  width: 4rem;
+  text-align: center;
+  border-radius: 2rem;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.5);
+}
+
+.number-container:hover {
+  cursor: pointer;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.7);
+}
+
+.number-container .number-block {
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  font-size: 2rem;
+}
